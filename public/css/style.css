@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+.poppins-bold {
+  /* font-family: "Poppins", sans-serif; */
+  /* font-weight: 300; */
+  font-style: normal;
+}
+
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo {
+  color: black;
+  font-size: 30pt;
+  font-family: "open sans", sans-serif;
+  text-decoration: none;
+  padding: 0 0 0 30px;
+}
+
+#dot {
+  color: blue;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: green;
+  height: 70px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-left: auto; /* Move nav-links to the far right */
+  align-items: center;
+  gap: 35px;
+  padding: 0 30px 0 30px;
+  font-family: 'open sans', sans-serif;
+} 
+
+
+
+.nav-items {
+  text-decoration: none;
+  color: black;
+}
+
+#shift {
+  display: flex;
+}
+
+#shift-left {
+  margin: 0 0 0 30px;
+  /* font-family: 'open sans', sans-serif; */
+}
+
+#business {
+   font-size: 40px;
+  font-weight: bold;
+  color: black;
+  /* font-family: 'open sans', sans-serif; */
+ font-family: "Poppins", sans-serif;
+}
+
+#font-one {
+ /* font-family: "Montserrat", sans-serif; */
+ font-family: "Montserrat", sans-serif;
+ font-size: 12px;
+ color: #6c757d;
+}
+
+/* .nun {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 70px;
+  font-style: normal;
+} */
+
+
+.get-start {
+  border-width: 2px;
+  background: #4285f4;
+  border-color: #4285f4;
+  color: #fff;
+  position: relative;
+  top: 0;
+  transition: 0.5s all ease;
+  box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+  border-radius: 30px;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: inline-block; /* Ensure the button dimensions are taken into account */
+}
+
+.get-start:hover {
+  top: -5px; /* Move the button up */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 8px 30px -5px rgba(66, 133, 244, 0.6); /* Increase the shadow effect */
+}
+
+
+.nav-link{
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.align-items-stretch {
+  -webkit-box-align: stretch !important;
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+}
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
