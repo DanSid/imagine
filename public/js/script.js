@@ -78,3 +78,48 @@ const tweet1 ={
   for (let i = 0; i<=9; i++) {
   console.log('Notify friends!', i);
   }
+
+
+  // functions
+// defining functions
+
+function login(username, password){
+  if (username == 'Grogu' && password == '1234'){
+    return 'User is logged in !';
+  }else if(username != 'Grogu'){
+    return 'Invalid username'
+    
+  }else if(password != '1234'){
+    return 'Invalid password!';
+    
+  }else{
+    return 'Invalid username or password!';
+  }
+  }
+  
+  // Invoking functions
+  login('Grogu', '1234')
+  
+  // Basic arithmatic
+  
+  4 + 3;
+  9-3;
+  45*4;
+  76/5;
+  43%9;
+  
+  // Comparison operators
+  3 ===3;
+  2 !==4;
+  4!==4;
+  
+  // Built-in Math functions
+  Math.round(88/32);
+  Math.floor(88/32);
+  Math.ceil(88/32);
+  Math.random();
+  Math.max(34,53,68,39,77);
+  
+  // Handling user inputs
+  24000 + Number('123');
+  
