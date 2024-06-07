@@ -123,3 +123,44 @@ function login(username, password){
   // Handling user inputs
   24000 + Number('123');
   
+
+// String Concatenation
+const firstName = 'Micheal';
+const lastName = 'Joe';
+// firstname+ ' ' + lastname;
+firstName.trim() + ' ' + lastName.trim();
+
+// Template literal
+`${firstName.trim()} ${lastName.trim()}`; 
+
+// String methods
+firstName.length;
+lastName.length;
+
+`${firstName.trim()} ${lastName.trim()}`.length;
+
+// Upper Case
+firstName.toUpperCase();
+ 
+(firstName + ' ' + lastName).toUpperCase();
+
+
+// CharAt
+lastName.charAt(1)
+
+`${firstName.trim()} ${lastName.trim()}`.charAt(0);
+`${firstName.trim().charAt(0)} ${lastName.trim().charAt(0)}`;
+
+// String conversion
+String(2014)
+
+
+
+
+
+
+
+
+
+
+
