@@ -158,7 +158,40 @@ String(2014)
 
 
 
+// Write a function that will add a participant to our Google Classroom
 
+const participants = [];
+
+function addParticipant(email) {
+ const firstname = 'Dan'
+ const lastname = 'Sidsaya';
+  let fullname = firstname + ' ' +lastname;
+  // Check if email was not provided
+  if(email ===null || email === undefined){
+    return 'Email not provided!';
+  }
+  // Check if email is valid
+  if(!email.includes('@')){
+    return 'Invalid email is provided'
+  }
+  // Add email to the participants
+  participants.push(email, firstname, lastname, fullname);
+  // Notify them via mail
+  console.log(`Notification sent to ${email}`);
+  
+  // Return response
+  return 'Participant Added';
+}
+ addParticipant('dansidsaya@gmail.com')
+
+console.log(participants)
+console.log(participants[0])
+
+// Arrays in JavaScript
+const alphabets=['A', 'B', 'C', 'D'];
+alphabets;
+alphabets.join(' ');
+alphabets.join (' ').split(' ');
 
 
 
