@@ -197,3 +197,112 @@ alphabets.join (' ').split(' ');
 
 
 
+// Write a function that will take firstname, lastname and return fullname
+
+// function mine(){
+//  const first_name = 'Grogu';
+//  const last_name = 'Cyber';
+//  let full_name = first_name + ' ' + last_name;
+//   console.log(full_name)
+// }
+
+// mine();
+
+
+
+// function mine(first_name, last_name){
+//  // const first_name = 'Grogu';
+//  // const last_name = 'Cyber';
+//  let full_name = first_name + ' ' + last_name;
+//   if (first_name == null && last_name ==null){
+//     return 'User Firstname and Lastname is not given'
+//   } 
+//   console.log(full_name)
+// }
+
+// mine('Dan','Sid');
+
+
+
+
+// Write a function that will take a user with firstname, lastname and return fullname
+
+// const user ={
+//   firstname: 'Cyber',
+//   lastname: 'Grogu'
+// }
+
+// function name(user){
+//   return `${user.firstname} ${user.lastname}` 
+// }
+
+// name(user);
+
+// // Array map
+// const users = [
+//   {firstname: 'Lucy', lastname: 'Zubermendi' },
+//   {firstname: 'Cyber', lastname: 'Harley' },
+//   {firstname: 'Monkey', lastname: 'Guy' },
+//   {firstname: 'Enock', lastname: 'Nephtah' },
+//    {firstname: 'Mark', lastname: 'Zugerburg' }
+// ]
+
+
+// users.map(name);
+
+
+// Write a function that will take a user with firstname, lastname and return fullname
+// Transformation
+const user ={
+  firstname: 'Cyber',
+  lastname: 'Grogu'
+}
+
+function name(user){
+    // To bring only firstname
+  // return user.firstname
+  // To show all items in the object
+  return {
+    ...user,
+    fullname: `${user.firstname} ${user.lastname}` 
+  }
+}
+
+name(user);
+
+// Array map
+const users = [
+  {firstname: 'Lucy', lastname: 'Zubermendi' },
+  {firstname: 'Cyber', lastname: 'Harley' },
+  {firstname: 'Monkey', lastname: 'Guy' },
+  {firstname: 'Enock', lastname: 'Nephtah' },
+   {firstname: 'Mark', lastname: 'Zugerburg', phone:'055323233'}
+]
+
+
+users.map(name);
+
+
+//  Map and return squares of numbers
+function square (number){
+  return number ** 2;
+}
+
+const numbers = [0, 1, 2, 3, 4, 5]
+
+numbers.map(square)
+
+
+// Filter and return even numbers
+function even (number){
+  return  number % 2 === 0;
+}
+numbers.filter(even)
+
+
+
+
+
+
+
+
