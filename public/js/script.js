@@ -329,8 +329,26 @@ function birthdayGreeting(user) {
     return 'Not Yet';
   }
 }
-
-bithdayGreetings(user);
-
+  bithdayGreetings(user);
 
 
+class Bottle{
+  constructor(color,shape, volume){
+    this.color = color;
+    this.shape = shape;
+    this.volume = volume;
+  }
+
+
+getInfo(){
+  return `This is a ${this.color} ${this.shape} bottle with capacity of ${this.volume}ml`;
+}
+}
+
+class Car{}
+const bottle1 = new Bottle('black', 'circle', 300)
+bottle1.getInfo();
+const bottle2 = new Bottle('pink', 'square', 1000)
+bottle2.getInfo();
+
+bottle1 instanceof Car;
